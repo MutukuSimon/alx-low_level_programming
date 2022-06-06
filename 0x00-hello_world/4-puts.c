@@ -6,7 +6,7 @@ int main(void)
 {
     char s = 'Programming is like building a multilingual puzzle\n';
     
-    int putchar(s);
+    putchar(s);
 
     return 0;
 }
