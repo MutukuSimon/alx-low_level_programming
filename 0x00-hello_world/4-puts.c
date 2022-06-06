@@ -1,12 +1,17 @@
-/* Putchar use */
-
 #include <stdio.h>
-
-int main(void)  
+/**
+* main - prints 'progrmming is like a multilingual puzzle'
+* int: entry
+* s: variable containing text to be printed
+* puts: prints out text
+*
+* Description: prints out 'programming is like a multilingual puzzle
+* Return: Is 0 meaning success
+*/
+int main(void)
 {
-    char s = 'Programming is like building a multilingual puzzle\n';
-    
-    int putchar(s);
+char s = 'Programming is like building a multilingual puzzle\n';
 
-    return 0;
+puts(s);
+return (void);
 }
