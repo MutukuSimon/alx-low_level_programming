@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-* main - prints 'progrmming is like a multilingual puzzle'
+* int main - prints text
+* main: prints 'progrmming is like a multilingual puzzle'
 * int: entry
 * s: variable containing text to be printed
 * puts: prints out text
@@ -10,8 +11,9 @@
 */
 int main(void)
 {
-char s = 'Programming is like building a multilingual puzzle\n';
+char s = "Programming is";
+char t = "like building a multilingual puzzle\n";
 
-puts(s);
-return (void);
+puts(char {s}char {t});
+return (0);
 }
