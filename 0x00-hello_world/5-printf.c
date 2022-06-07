@@ -3,10 +3,7 @@
 /**
 * main - prints the text with proper grammar,
 * but the outcome is a piece of art,
-* int: entry
-* printf: prints text
-*
-* return: 0 always if success, prints with proper grammar, but the outcome is a piece of art
+* return: 0 always if success
 */
 int main(void)
 {
